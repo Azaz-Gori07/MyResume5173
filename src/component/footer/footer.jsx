@@ -44,10 +44,10 @@ function Footer() {
 
       <motion.div className="social-icons" variants={staggerContainer}>
         {[
-          { src: "./src/assets/facebook.svg", alt: "Facebook" },
-          { src: "./src/assets/linkin.svg", alt: "LinkedIn" },
-          { src: "./src/assets/instagram.svg", alt: "Instagram" },
-          { src: "./src/assets/email.svg", alt: "Email" },
+          { src: "./assets/facebook.svg", alt: "Facebook" },
+          { src: "./assets/linkin.svg", alt: "LinkedIn" },
+          { src: "./assets/instagram.svg", alt: "Instagram" },
+          { src: "./assets/email.svg", alt: "Email" },
         ].map((social, index) => (
           <motion.a
             key={index}

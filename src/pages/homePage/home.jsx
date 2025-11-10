@@ -42,8 +42,8 @@ function Home() {
   }
 
   const projects = [
-    { img: "/src/assets/projects/allbirds.png", link: "https://all-birds-fronted.vercel.app/" },
-    { img: "/src/assets/projects/quick-show.png", link: "https://quick-sow.vercel.app/" },
+    { img: "/assets/projects/allbirds.png", link: "https://all-birds-fronted.vercel.app/" },
+    { img: "/assets/projects/quick-show.png", link: "https://quick-sow.vercel.app/" },
     { img: "", link: "https://port-folio-drab-rho.vercel.app/" }
   ];
 
@@ -66,15 +66,15 @@ function Home() {
             </motion.p>
             <motion.div className="platforms" variants={staggerItem}>
               <motion.div className="bg" whileHover={{ scale: 1.2, rotate: 5 }} whileTap={{ scale: 0.9 }}>
-                <img src="./src/assets/header/Vector.png" alt="" />
+                <img src="/assets/header/Vector.png" alt="" />
               </motion.div>
 
               <motion.div className="bg" whileHover={{ scale: 1.2, rotate: -5 }} whileTap={{ scale: 0.9 }}>
-                <img src="./src/assets/header/Vector (2).png" alt="" />
+                <img src="./assets/header/Vector (2).png" alt="" />
               </motion.div>
 
               <motion.div className="bg" whileHover={{ scale: 1.2, rotate: 5 }} whileTap={{ scale: 0.9 }}>
-                <img src="./src/assets/header/Vector (3).png" alt="" />
+                <img src="./assets/header/Vector (3).png" alt="" />
               </motion.div>
             </motion.div>
           </div>
@@ -83,7 +83,7 @@ function Home() {
         <div className="right-div">
           <motion.img
             className="tringle"
-            src="./src/assets/header/Rectangle 67.png"
+            src="./assets/header/Rectangle 67.png"
             alt=""
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -91,7 +91,7 @@ function Home() {
           />
           <motion.img
             className="character"
-            src="./src/assets/header/image 17.png"
+            src="./assets/header/image 17.png"
             alt=""
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
@@ -103,7 +103,7 @@ function Home() {
         {/* Mobile View */}
         <motion.img
           className="phone-character"
-          src="./src/assets/header/image 17.png"
+          src="./assets/header/image 17.png"
           alt=""
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
@@ -112,7 +112,7 @@ function Home() {
         <div className="phone-veiw">
           <motion.img
             className="rectangle83"
-            src="./src/assets/header/Rectangle 83.png"
+            src="./assets/header/Rectangle 83.png"
             alt=""
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -120,7 +120,7 @@ function Home() {
           />
           <motion.img
             className="rectangle82"
-            src="./src/assets/header/Rectangle 82.png"
+            src="./assets/header/Rectangle 82.png"
             alt=""
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -138,19 +138,19 @@ function Home() {
             </div>
             <motion.div className="part2" variants={staggerItem}>
               <motion.img
-                src="./src/assets/header/Vector.png"
+                src="./assets/header/Vector.png"
                 alt=""
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
               />
               <motion.img
-                src="./src/assets/header/Vector (2).png"
+                src="./assets/header/Vector (2).png"
                 alt=""
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
               />
               <motion.img
-                src="./src/assets/header/Vector (3).png"
+                src="./assets/header/Vector (3).png"
                 alt=""
                 whileHover={{ scale: 1.2 }}
                 whileTap={{ scale: 0.9 }}
@@ -168,7 +168,7 @@ function Home() {
         transition={{ duration: 1 }}
       >
         <motion.img
-          src="./src/assets/logo/Logo ITB.png"
+          src="./assets/logo/Logo ITB.png"
           alt=""
           initial={{ opacity: 0, scale: 0.8 }}
           whileInView={{ opacity: 1, scale: 1 }}
@@ -238,7 +238,7 @@ function Home() {
         <motion.button className="a-b-2" variants={staggerItem} whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
           EXPLORE
         </motion.button>
-        <motion.img className="devider" src="./src/assets/devider/separatorBlack 1.png" variants={staggerItem} />
+        <motion.img className="devider" src="./assets/devider/separatorBlack 1.png" variants={staggerItem} />
       </motion.div>
 
       <motion.div
@@ -255,7 +255,7 @@ function Home() {
           whileHover={{ scale: 1.05, y: -10 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          <img src="./src/assets/skills/136378-200 1.png" alt="" />
+          <img src="./assets/skills/136378-200 1.png" alt="" />
           <h2>DESIGN</h2>
           <p>
             I can design the site based on your needs and suggestions. I can also design the site from scratch and
@@ -269,7 +269,7 @@ function Home() {
           whileHover={{ scale: 1.05, y: -10 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          <img src="./src/assets/skills/maintenance--v3 1.png" alt="" />
+          <img src="./assets/skills/maintenance--v3 1.png" alt="" />
           <h2>DEVELOPMENT</h2>
           <p>
             I can design the site based on your needs and suggestions. I can also design the site from scratch and
@@ -283,7 +283,7 @@ function Home() {
           whileHover={{ scale: 1.05, y: -10 }}
           transition={{ type: "spring", stiffness: 300 }}
         >
-          <img src="./src/assets/skills/img_533288 1.png" alt="" />
+          <img src="./assets/skills/img_533288 1.png" alt="" />
           <h2>MAINTENANCE</h2>
           <p>
             I can design the site based on your needs and suggestions. I can also design the site from scratch and
@@ -299,7 +299,7 @@ function Home() {
         viewport={{ once: true }}
         variants={staggerContainer}
       >
-        <motion.img className="devider" src="./src/assets/devider/separatorBlack 1.png" alt="" variants={staggerItem} />
+        <motion.img className="devider" src="./assets/devider/separatorBlack 1.png" alt="" variants={staggerItem} />
         <motion.button
           id="skills"
           className="a-b-1"
@@ -321,14 +321,14 @@ function Home() {
         <motion.h1 variants={staggerItem}>USING NOW :</motion.h1>
         <motion.div className="current" variants={staggerContainer}>
           {[
-            { src: "./src/assets/skills/HTML.svg", name: "HTML5" },
-            { src: "./src/assets/skills/CSS.svg", name: "CSS3" },
-            { src: "./src/assets/skills/JS.svg", name: "JAVASCRIPT" },
-            { src: "./src/assets/skills/SASS.svg", name: "SASS" },
-            { src: "./src/assets/skills/REACT.svg", name: "REACT" },
-            { src: "./src/assets/skills/bootstrap.svg", name: "BOOTSTRAP" },
-            { src: "./src/assets/skills/git.svg", name: "GIT" },
-            { src: "./src/assets/skills/figma.svg", name: "FIGMA" },
+            { src: "./assets/skills/HTML.svg", name: "HTML5" },
+            { src: "./assets/skills/CSS.svg", name: "CSS3" },
+            { src: "./assets/skills/JS.svg", name: "JAVASCRIPT" },
+            { src: "./assets/skills/SASS.svg", name: "SASS" },
+            { src: "./assets/skills/REACT.svg", name: "REACT" },
+            { src: "./assets/skills/bootstrap.svg", name: "BOOTSTRAP" },
+            { src: "./assets/skills/git.svg", name: "GIT" },
+            { src: "./assets/skills/figma.svg", name: "FIGMA" },
           ].map((skill, index) => (
             <motion.p
               key={index}
@@ -353,9 +353,9 @@ function Home() {
         <motion.h1 variants={staggerItem}>LEARNING :</motion.h1>
         <motion.div className="current" variants={staggerContainer}>
           {[
-            { src: "./src/assets/skills/nodejs.png", name: "NODEJS" },
-            { src: "./src/assets/skills/mySql.svg", name: "MYSQL" },
-            { src: "./src/assets/skills/mongodb.png", name: "MONGODB" },
+            { src: "./assets/skills/nodejs.png", name: "NODEJS" },
+            { src: "./assets/skills/mySql.svg", name: "MYSQL" },
+            { src: "./assets/skills/mongodb.png", name: "MONGODB" },
           ].map((skill, index) => (
             <motion.p
               key={index}
@@ -429,7 +429,7 @@ function Home() {
           Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem varius finibus. Sed ornare sit amet lorem
           sed viverra. In vel urna quis libero viverra facilisis ut ac est.
         </motion.p>
-        <motion.img src="./src/assets/devider/separatorBlack 1.png" alt="" variants={staggerItem} />
+        <motion.img src="./assets/devider/separatorBlack 1.png" alt="" variants={staggerItem} />
       </motion.div>
 
       <motion.div

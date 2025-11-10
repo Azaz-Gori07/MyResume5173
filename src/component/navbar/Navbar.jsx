@@ -34,7 +34,7 @@ function Navbar() {
     >
       <motion.div className="logo" whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 300 }}>
         <h1>MyResume</h1>
-        <img src="./src/assets/logo/logo.png" alt="" />
+        <img src="./assets/logo/logo.png" alt="" />
       </motion.div>
 
       <ul className="links">
