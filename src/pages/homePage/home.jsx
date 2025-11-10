@@ -41,6 +41,12 @@ function Home() {
     visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
   }
 
+  const projects = [
+    { img: "/src/assets/projects/allbirds.png", link: "https://all-birds-fronted.vercel.app/" },
+    { img: "/src/assets/projects/quick-show.png", link: "https://quick-sow.vercel.app/" },
+    { img: "", link: "https://port-folio-drab-rho.vercel.app/" }
+  ];
+
   return (
     <>
       <motion.header
@@ -383,14 +389,18 @@ function Home() {
         </motion.div>
 
         <motion.div className="projects" variants={staggerContainer}>
-          {[1, 2, 3, 4].map((project, index) => (
+          {projects.map((project, index) => (
             <motion.div
               key={index}
               className="pts"
               variants={staggerItem}
               whileHover={{ scale: 1.02, y: -5 }}
               transition={{ type: "spring", stiffness: 300 }}
-            />
+            >
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
+                <img src={project.img} alt={`Project ${index + 1}`} className="project-img" />
+              </a>
+            </motion.div>
           ))}
         </motion.div>
 
