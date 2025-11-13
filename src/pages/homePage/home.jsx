@@ -99,65 +99,6 @@ function Home() {
             whileHover={{ scale: 1.05 }}
           />
         </div>
-
-        {/* Mobile View */}
-        <motion.img
-          className="phone-character"
-          src="./assets/header/image 17.png"
-          alt=""
-          initial={{ opacity: 0, y: 100 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.2, delay: 0.8 }}
-        />
-        <div className="phone-veiw">
-          <motion.img
-            className="rectangle83"
-            src="./assets/header/Rectangle 83.png"
-            alt=""
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.3 }}
-          />
-          <motion.img
-            className="rectangle82"
-            src="./assets/header/Rectangle 82.png"
-            alt=""
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, delay: 0.5 }}
-          />
-          <motion.div className="intro" variants={staggerContainer} initial="hidden" animate="visible">
-            <div className="part-1">
-              <motion.p className="p1" variants={staggerItem}>
-                Hi, I am
-              </motion.p>
-              <motion.h1 variants={staggerItem}>Muhammed Azaz</motion.h1>
-              <motion.p className="p2" variants={staggerItem}>
-                Front-end Developer / UI Designer
-              </motion.p>
-            </div>
-            <motion.div className="part2" variants={staggerItem}>
-              <motion.img
-                src="./assets/header/Vector.png"
-                alt=""
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.9 }}
-              />
-              <motion.img
-                src="./assets/header/Vector (2).png"
-                alt=""
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.9 }}
-              />
-              <motion.img
-                src="./assets/header/Vector (3).png"
-                alt=""
-                whileHover={{ scale: 1.2 }}
-                whileTap={{ scale: 0.9 }}
-              />
-            </motion.div>
-          </motion.div>
-        </div>
       </motion.header>
 
       <motion.div
